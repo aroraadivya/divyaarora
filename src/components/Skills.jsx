@@ -41,7 +41,7 @@ const rows = [
     label: 'iOS',
     tags: [
       { icon: 'devicon-swift-plain', text: 'Swift' },
-      { icon: 'devicon-swift-plain', text: 'SwiftUI' },
+      { text: 'SwiftUI' },
       { text: 'MVVM' },
       { icon: 'devicon-xcode-plain', text: 'Xcode' },
     ],

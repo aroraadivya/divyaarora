@@ -35,7 +35,7 @@ export default function About() {
               <span className="stat-label">Published Book</span>
             </div>
             <div className="about-stat">
-              <span className="stat-num">3+</span>
+              <span className="stat-num">4+</span>
               <span className="stat-label">Years Coding</span>
             </div>
           </div>

@@ -23,7 +23,7 @@ export default function Hero() {
           </p>
           <div className="hero-btns">
             <a href="mailto:divyaarorag0o1@gmail.com" className="btn btn-dark">Get in touch</a>
-            <button onClick={() => window.print()} className="btn btn-pink">Download CV</button>
+            <button onClick={() => window.print()} className="btn btn-pink">Print Resume</button>
             <a href="https://github.com/aroraadivya" target="_blank" rel="noreferrer" className="btn btn-ghost">GitHub</a>
             <a href="https://www.linkedin.com/in/aroraadivya/" target="_blank" rel="noreferrer" className="btn btn-ghost">LinkedIn</a>
           </div>

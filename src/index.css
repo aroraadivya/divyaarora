@@ -108,6 +108,7 @@ nav {
     transition: color 0.2s;
 }
 .nav-links a:hover { color: var(--text); }
+.nav-links a.nav-active { color: var(--text); font-weight: 500; }
 
 /* ── LAYOUT ── */
 section {
