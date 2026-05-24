@@ -45,7 +45,7 @@ function App() {
       <Writing />
       <hr className="section-divider" />
       <Contact />
-      <footer>Designed &amp; built · Divya Arora · 2026</footer>
+      <footer>Designed &amp; built · Divya Arora · {new Date().getFullYear()}</footer>
       <PrintResume />
     </>
   );

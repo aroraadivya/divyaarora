@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 
 const links = [
   ['about', 'About'],
+  ['skills', 'Skills'],
   ['experience', 'Experience'],
   ['projects', 'Projects'],
   ['posts', 'Posts'],
@@ -12,6 +13,12 @@ const links = [
 export default function Nav() {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState('');
+  const [dark, setDark] = useState(() => localStorage.getItem('theme') === 'dark');
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+    localStorage.setItem('theme', dark ? 'dark' : 'light');
+  }, [dark]);
 
   useEffect(() => {
     const observers = links.map(([id]) => {
@@ -43,13 +50,22 @@ export default function Nav() {
           </li>
         ))}
       </ul>
-      <button
-        className="nav-hamburger"
-        onClick={() => setOpen(o => !o)}
-        aria-label="Menu"
-      >
-        <span /><span /><span />
-      </button>
+      <div className="nav-actions">
+        <button
+          className="dark-toggle"
+          onClick={() => setDark(d => !d)}
+          aria-label="Toggle dark mode"
+        >
+          {dark ? '☀' : '☾'}
+        </button>
+        <button
+          className="nav-hamburger"
+          onClick={() => setOpen(o => !o)}
+          aria-label="Menu"
+        >
+          <span /><span /><span />
+        </button>
+      </div>
     </nav>
   );
 }

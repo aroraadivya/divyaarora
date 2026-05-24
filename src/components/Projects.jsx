@@ -56,6 +56,7 @@ export default function Projects() {
             <div className="project-tags">
               {p.tags.map((t, j) => <span key={j} className="project-tag">{t}</span>)}
             </div>
+            <span className="project-link">View →</span>
           </motion.a>
         ))}
       </motion.div>
