@@ -31,22 +31,24 @@ function App() {
       />
       <Nav />
       <Hero />
-      <hr className="section-divider" />
       <About />
-      <hr className="section-divider" />
       <Skills />
-      <hr className="section-divider" />
       <Experience />
-      <hr className="section-divider" />
       <Projects />
-      <hr className="section-divider" />
       <Posts />
-      <hr className="section-divider" />
       <Writing />
-      <hr className="section-divider" />
       <Contact />
       <footer>Designed &amp; built · Divya Arora · {new Date().getFullYear()}</footer>
       <PrintResume />
+      {scrollWidth > 5 && (
+        <button
+          className="back-to-top"
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          aria-label="Back to top"
+        >
+          ↑
+        </button>
+      )}
     </>
   );
 }

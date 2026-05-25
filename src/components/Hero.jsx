@@ -26,6 +26,7 @@ export default function Hero() {
             <button onClick={() => window.print()} className="btn btn-pink">Print Resume</button>
             <a href="https://github.com/aroraadivya" target="_blank" rel="noreferrer" className="btn btn-ghost">GitHub</a>
             <a href="https://www.linkedin.com/in/aroraadivya/" target="_blank" rel="noreferrer" className="btn btn-ghost">LinkedIn</a>
+            <a href="https://x.com/divyaarorag0o1" target="_blank" rel="noreferrer" className="btn btn-ghost">Twitter / X</a>
           </div>
         </motion.div>
 

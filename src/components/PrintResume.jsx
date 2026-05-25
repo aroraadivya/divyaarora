@@ -17,7 +17,7 @@ export default function PrintResume() {
         <div className="pr-main">
           <section className="pr-section">
             <h2 className="pr-section-title">Summary</h2>
-            <p className="pr-text">Junior Data Engineer with 3+ years of coding experience building intelligent, data-driven applications at the intersection of AI and product. Experienced in full stack development, iOS, workflow automation, and LLM integration. Led a team of 9 as Scrum Master at Infosys. Published author of <em>She Knew, Eventually</em> (2025).</p>
+            <p className="pr-text">Junior Data Engineer with 4+ years of coding experience building intelligent, data-driven applications at the intersection of AI and product. Experienced in full stack development, iOS, workflow automation (Zoho suite, n8n, Pabbly), and LLM integration. Led a team of 9 as Scrum Master at Infosys. Published author of <em>She Knew, Eventually</em> (2025).</p>
           </section>
 
           <section className="pr-section">
@@ -106,8 +106,9 @@ export default function PrintResume() {
             <div className="pr-skill-row"><span className="pr-skill-cat">Full Stack</span><span>React, Next.js, Node.js, FastAPI, PostgreSQL, MongoDB</span></div>
             <div className="pr-skill-row"><span className="pr-skill-cat">AI / LLM</span><span>AI Agents, LLM Integration, Prompt Engineering, RAG</span></div>
             <div className="pr-skill-row"><span className="pr-skill-cat">iOS</span><span>Swift, SwiftUI, MVVM, Xcode</span></div>
+            <div className="pr-skill-row"><span className="pr-skill-cat">Automation</span><span>n8n, Pabbly, TeleCRM, Zoho Flow, Zoho CRM, Zoho SalesIQ, Zoho Desk, Zoho Analytics, Zoho People, Deluge</span></div>
             <div className="pr-skill-row"><span className="pr-skill-cat">DSA</span><span>Data Structures, Algorithms, OOP (C++)</span></div>
-            <div className="pr-skill-row"><span className="pr-skill-cat">Tools</span><span>Git, Docker, Postman, Zoho CRM, Deluge</span></div>
+            <div className="pr-skill-row"><span className="pr-skill-cat">Tools</span><span>Git, Docker, Postman</span></div>
             <div className="pr-skill-row"><span className="pr-skill-cat">Leadership</span><span>Scrum Master, Agile, Mentoring</span></div>
           </section>
 
