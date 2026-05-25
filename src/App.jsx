@@ -10,12 +10,6 @@ import Writing from './components/Writing';
 import Contact from './components/Contact';
 import PrintResume from './components/PrintResume';
 
-const MARQUEE = [
-  'Data Engineering','✦','AI / LLM','✦','iOS Development','✦','n8n','✦',
-  'Pabbly','✦','React','✦','Swift','✦','FastAPI','✦','Python','✦',
-  'Zoho Suite','✦','Published Author','✦','Open Source','✦',
-];
-
 function App() {
   const [scrollWidth, setScrollWidth] = useState(0);
   const [cursor, setCursor] = useState({ x: -200, y: -200 });
@@ -46,13 +40,6 @@ function App() {
       )}
       <Nav />
       <Hero />
-      <div className="marquee-strip" aria-hidden="true">
-        <div className="marquee-track">
-          {[...MARQUEE, ...MARQUEE].map((item, i) => (
-            <span key={i} className="marquee-item">{item}</span>
-          ))}
-        </div>
-      </div>
       <About />
       <Skills />
       <Experience />
