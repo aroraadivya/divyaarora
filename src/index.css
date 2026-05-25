@@ -195,9 +195,8 @@ section {
     display: flex;
     align-items: center;
     padding-top: 8rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
     position: relative;
-    overflow: hidden;
 }
 #hero::before {
     content: '';
@@ -208,6 +207,7 @@ section {
     opacity: 0.55;
     z-index: 0;
     pointer-events: none;
+    clip-path: inset(0);
 }
 .hero-inner {
     display: flex;
@@ -257,11 +257,11 @@ section {
 .float-5 { background: #ead4f4; border-color: #b890d4; box-shadow: 3px 3px 0 #b890d4; color: #5a2a7a; }
 .float-6 { background: var(--accent1); border-color: #d4a0a0; box-shadow: 3px 3px 0 #d4a0a0; color: #7a3535; }
 .float-1 { top: -18px;  left: -60px;  animation-duration: 3.8s; animation-delay: 0s;    }
-.float-2 { top: 30px;   right: -70px; animation-duration: 4.2s; animation-delay: 0.5s;  }
+.float-2 { top: 30px;   right: -55px; animation-duration: 4.2s; animation-delay: 0.5s;  }
 .float-3 { top: 110px;  left: -75px;  animation-duration: 3.5s; animation-delay: 1s;    }
-.float-4 { bottom: 90px; right: -80px; animation-duration: 4.5s; animation-delay: 0.3s; }
+.float-4 { bottom: 90px; right: -60px; animation-duration: 4.5s; animation-delay: 0.3s; }
 .float-5 { bottom: 20px; left: -55px;  animation-duration: 3.9s; animation-delay: 0.8s; }
-.float-6 { top: 190px;  right: -65px;  animation-duration: 4.1s; animation-delay: 1.2s; }
+.float-6 { top: 190px;  right: -50px;  animation-duration: 4.1s; animation-delay: 1.2s; }
 
 
 .hero-tags {
