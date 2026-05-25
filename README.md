@@ -1,61 +1,33 @@
-# Divya Arora — Portfolio
+# Divya Arora
 
-> Junior Data Engineer · Full Stack · iOS Developer · Author
+**Junior Data Engineer · Full Stack · iOS Developer · Published Author**
 
-Personal portfolio built with React, Vite, and Framer Motion. Showcases my work at the intersection of data engineering, AI, and product — along with my iOS projects, published book, and writing.
-
-**Live at:** [aroraadivya.github.io/divyaarora](https://aroraadivya.github.io/divyaarora) *(or wherever deployed)*
+Live at: **[aroraadivya.github.io/divyaarora](https://aroraadivya.github.io/divyaarora)**
 
 ---
 
-## Sections
+I'm a developer based in India, building intelligent systems at the intersection of data engineering and AI. Currently working at ReKnew, where I build LLM-powered applications using FastAPI and React. I've also done iOS development at Infosys (led a team of 9 as Scrum Master), workflow automation across the entire Zoho suite, and open-source frontend contributions.
 
-| Section | What's inside |
-|---|---|
-| **Hero** | Quick intro, social links, print resume |
-| **About** | Background, what I do, four skill pillars |
-| **Skills** | Full tech stack with icons |
-| **Experience** | Timeline from Open Source Chandigarh → Infosys → Zouma → ReKnew |
-| **Projects** | EmotionSense, Library Management System, LeetCode DSA, open source |
-| **Posts** | Recent LinkedIn posts |
-| **Writing** | *She Knew, Eventually* — debut non-fiction (2025) |
-| **Contact** | Email, socials, LeetCode |
+Outside of engineering, I'm a published author — *She Knew, Eventually* (2025) is my debut non-fiction book, available on Amazon, Flipkart, Kindle, and Google Books.
 
 ---
 
-## Tech Stack
+## What I work with
 
-- **React 18 + Vite** — fast HMR and optimised build
-- **Framer Motion** — scroll-triggered fade/stagger animations
-- **CSS custom properties** — seamless light / dark theming
-- **Devicons** — language and tool icons
-- Custom ring cursor, dot-grid hero background, floating sticker badges
-
----
-
-## Features
-
-- Light / dark mode (persisted to `localStorage`)
-- Scroll progress bar
-- Print-optimised resume (`window.print()`)
-- Smooth back-to-top button
-- Fully responsive — mobile, tablet, desktop
-- Custom cursor (disabled on touch devices)
+**Languages** — Python, JavaScript, TypeScript, Swift, C++, SQL  
+**Full Stack** — React, Next.js, FastAPI, Node.js, PostgreSQL, MongoDB  
+**AI / LLM** — AI Agents, LLM Integration, Prompt Engineering, RAG  
+**iOS** — Swift, SwiftUI, MVVM, Xcode  
+**Automation** — n8n, Pabbly, TeleCRM, Zoho Flow, Zoho CRM, Zoho SalesIQ, Zoho Desk, Zoho Analytics, Zoho People, Deluge  
+**Tools** — Git, Docker, Postman
 
 ---
 
-## Local Dev
+## Projects
 
-```bash
-npm install
-npm run dev
-```
-
-Build for production:
-
-```bash
-npm run build
-```
+- **EmotionSense** — Real-time multimodal emotion analysis (text + audio + video) with CBT recommendations. Built with Next.js, FastAPI, scikit-learn, OpenCV, MediaPipe.
+- **Library Management System** — Full iOS app with SwiftUI and MVVM architecture for managing books, members, and borrow records.
+- **LeetCode DSA Solutions** — 500+ curated C++ solutions organised by topic (Arrays, DP, Bit Manipulation, Sorting, and more).
 
 ---
 
@@ -65,4 +37,9 @@ npm run build
 - [GitHub](https://github.com/aroraadivya)
 - [Twitter / X](https://x.com/divyaarorag0o1)
 - [LeetCode](https://leetcode.com/u/divyaaroraa/)
-- [She Knew, Eventually on Amazon](https://www.amazon.in/s?k=she+knew+eventually+divya+arora)
+- [She Knew, Eventually](https://www.amazon.in/s?k=she+knew+eventually+divya+arora)
+- [Email](mailto:divyaarorag0o1@gmail.com)
+
+---
+
+*Built with React, Vite, and Framer Motion.*
