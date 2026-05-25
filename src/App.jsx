@@ -10,8 +10,16 @@ import Writing from './components/Writing';
 import Contact from './components/Contact';
 import PrintResume from './components/PrintResume';
 
+const MARQUEE = [
+  'Data Engineering','✦','AI / LLM','✦','iOS Development','✦','n8n','✦',
+  'Pabbly','✦','React','✦','Swift','✦','FastAPI','✦','Python','✦',
+  'Zoho Suite','✦','Published Author','✦','Open Source','✦',
+];
+
 function App() {
   const [scrollWidth, setScrollWidth] = useState(0);
+  const [cursor, setCursor] = useState({ x: -200, y: -200 });
+  const [isTouch] = useState(() => window.matchMedia('(hover: none)').matches);
 
   useEffect(() => {
     const onScroll = () => {
@@ -23,14 +31,28 @@ function App() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
+  useEffect(() => {
+    if (isTouch) return;
+    const onMove = (e) => setCursor({ x: e.clientX, y: e.clientY });
+    window.addEventListener('mousemove', onMove);
+    return () => window.removeEventListener('mousemove', onMove);
+  }, [isTouch]);
+
   return (
     <>
-      <div
-        id="scroll-progress"
-        style={{ width: `${scrollWidth}%` }}
-      />
+      <div id="scroll-progress" style={{ width: `${scrollWidth}%` }} />
+      {!isTouch && (
+        <div className="cursor" style={{ left: cursor.x, top: cursor.y }} />
+      )}
       <Nav />
       <Hero />
+      <div className="marquee-strip" aria-hidden="true">
+        <div className="marquee-track">
+          {[...MARQUEE, ...MARQUEE].map((item, i) => (
+            <span key={i} className="marquee-item">{item}</span>
+          ))}
+        </div>
+      </div>
       <About />
       <Skills />
       <Experience />
