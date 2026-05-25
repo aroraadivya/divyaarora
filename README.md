@@ -1,23 +1,63 @@
 # Divya Arora — Portfolio
 
-Personal portfolio site built with React, Vite, and Framer Motion.
+> Junior Data Engineer · Full Stack · iOS Developer · Author
 
-## About
+Personal portfolio built with React, Vite, and Framer Motion. Showcases my work at the intersection of data engineering, AI, and product — along with my iOS projects, published book, and writing.
 
-Junior Data Engineer · iOS Developer · Published Author
+**Live at:** [aroraadivya.github.io/divyaarora](https://aroraadivya.github.io/divyaarora) *(or wherever deployed)*
 
-Built at the intersection of data, AI, and product. Showcases experience, projects, writing, and LinkedIn posts.
-
-## Stack
-
-- **React + Vite** — fast dev and build
-- **Framer Motion** — scroll-triggered animations
-- **CSS custom properties** — light/dark theming
-- **Devicons** — language/tool icons
+---
 
 ## Sections
 
-Hero · About · Skills · Experience · Projects · Posts · Writing · Contact
+| Section | What's inside |
+|---|---|
+| **Hero** | Quick intro, social links, print resume |
+| **About** | Background, what I do, four skill pillars |
+| **Skills** | Full tech stack with icons |
+| **Experience** | Timeline from Open Source Chandigarh → Infosys → Zouma → ReKnew |
+| **Projects** | EmotionSense, Library Management System, LeetCode DSA, open source |
+| **Posts** | Recent LinkedIn posts |
+| **Writing** | *She Knew, Eventually* — debut non-fiction (2025) |
+| **Contact** | Email, socials, LeetCode |
+
+---
+
+## Tech Stack
+
+- **React 18 + Vite** — fast HMR and optimised build
+- **Framer Motion** — scroll-triggered fade/stagger animations
+- **CSS custom properties** — seamless light / dark theming
+- **Devicons** — language and tool icons
+- Custom ring cursor, dot-grid hero background, floating sticker badges
+
+---
+
+## Features
+
+- Light / dark mode (persisted to `localStorage`)
+- Scroll progress bar
+- Print-optimised resume (`window.print()`)
+- Smooth back-to-top button
+- Fully responsive — mobile, tablet, desktop
+- Custom cursor (disabled on touch devices)
+
+---
+
+## Local Dev
+
+```bash
+npm install
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
 
 ## Links
 
@@ -25,3 +65,4 @@ Hero · About · Skills · Experience · Projects · Posts · Writing · Contact
 - [GitHub](https://github.com/aroraadivya)
 - [Twitter / X](https://x.com/divyaarorag0o1)
 - [LeetCode](https://leetcode.com/u/divyaaroraa/)
+- [She Knew, Eventually on Amazon](https://www.amazon.in/s?k=she+knew+eventually+divya+arora)
