@@ -8,7 +8,7 @@ export default function Writing() {
       <motion.p className="label" variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} transition={{ duration: 0.5 }}>Writing</motion.p>
       <motion.h2 className="heading" variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.05 }}>She Knew, Eventually</motion.h2>
       <motion.div className="book-card" variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} transition={{ duration: 0.55 }}>
-        <img src="/book-cover.png" alt="She Knew, Eventually — Divya Arora" className="book-cover-img" loading="lazy" />
+        <img src="/book-cover.png" alt="She Knew, Eventually by Divya Arora" className="book-cover-img" loading="lazy" />
         <div className="book-info">
           <span className="book-badge">Debut Non-Fiction</span>
           <h3 className="book-title">She Knew, Eventually</h3>

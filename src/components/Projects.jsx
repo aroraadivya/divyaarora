@@ -21,7 +21,7 @@ const projects = [
   {
     dot: 'linear-gradient(135deg, #c4f2d4, #90e0b0)',
     name: 'LeetCode DSA Solutions',
-    desc: '500+ curated problem solutions organized by topic — Arrays, Dynamic Programming, Bit Manipulation, Sorting, and more. A growing reference for coding interviews.',
+    desc: '500+ curated problem solutions organized by topic: Arrays, Dynamic Programming, Bit Manipulation, Sorting, and more. A growing reference for coding interviews.',
     tags: ['C++', 'DSA', 'Algorithms', 'Data Structures'],
     href: 'https://github.com/aroraadivya/LeetCode-Questions',
   },

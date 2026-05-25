@@ -20,8 +20,8 @@ export default function About() {
 
       <div className="about-top">
         <motion.div className="about-text" variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} transition={{ duration: 0.5 }}>
-          <p>I'm a data engineer with a curiosity that bleeds into everything — from building LLM-powered applications and automating business workflows, to developing iOS apps and writing books.</p>
-          <p>Currently at ReKnew in Hyderabad, I work at the intersection of data, AI, and product — building intelligent systems that actually solve real problems, not just demo well.</p>
+          <p>I'm a data engineer with a curiosity that bleeds into everything, from building LLM-powered applications and automating business workflows, to developing iOS apps and writing books.</p>
+          <p>Currently at ReKnew in Hyderabad, I work at the intersection of data, AI, and product, building intelligent systems that actually solve real problems, not just demo well.</p>
           <p>I've worn many hats: Scrum Master leading a team of 9 at Infosys, Zoho developer shipping client CRM solutions, open-source contributor, and most recently a published author.</p>
         </motion.div>
         <motion.div className="about-right" variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.1 }}>
