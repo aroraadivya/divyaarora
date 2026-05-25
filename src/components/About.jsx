@@ -6,7 +6,7 @@ const stagger = { hidden: {}, show: { transition: { staggerChildren: 0.08 } } };
 const cards = [
   { icon: '🏗️', title: 'Data Engineering', sub: 'FastAPI · AI Agents · LLM Integration' },
   { icon: '📱', title: 'iOS Development', sub: 'Swift · SwiftUI · MVVM Architecture' },
-  { icon: '⚙️', title: 'Workflow Automation', sub: 'Zoho CRM · Deluge · Business Process Ops' },
+  { icon: '⚙️', title: 'Workflow Automation', sub: 'n8n · Pabbly · TeleCRM · Zoho Flow · Zoho CRM · Deluge' },
   { icon: '💻', title: 'Full Stack Development', sub: 'React · Node.js · FastAPI · SQL · REST APIs' },
   { icon: '🧠', title: 'DSA & Problem Solving', sub: 'C++ · Data Structures · Algorithms · OOP' },
   { icon: '✍️', title: 'Author', sub: 'She Knew, Eventually · Oct 2025' },

@@ -22,8 +22,8 @@ const jobs = [
     date: 'Apr 2025 — Feb 2026',
     role: 'Zoho Developer Intern',
     company: 'Zouma Consulting Services APAC · Mohali',
-    desc: 'Customized CRM solutions using Zoho Creator and Deluge scripting. Automated business workflows, built custom modules, and delivered scalable client-specific solutions.',
-    tags: ['Zoho CRM', 'Deluge Scripting', 'Workflow Automation', 'Zoho Creator'],
+    desc: 'Customized CRM and business solutions across the Zoho ecosystem. Built Zoho Creator apps, automated workflows with Zoho Flow and Deluge scripting, managed customer support via Zoho Desk and SalesIQ, and delivered HR and analytics solutions using Zoho People and Zoho Analytics.',
+    tags: ['Zoho CRM', 'Zoho Flow', 'Zoho Creator', 'Zoho Desk', 'Zoho SalesIQ', 'Zoho Analytics', 'Zoho People', 'Deluge'],
   },
   {
     date: 'Feb 2025 — Mar 2025',

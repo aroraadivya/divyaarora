@@ -41,7 +41,7 @@ export default function Hero() {
           <div className="float-badge float-3">🍎 Swift</div>
           <div className="float-badge float-4">🤖 AI / LLM</div>
           <div className="float-badge float-5">✍️ Author</div>
-          <div className="float-badge float-6">🧠 DSA</div>
+          <div className="float-badge float-6">⚡ n8n</div>
         </motion.div>
       </div>
     </section>

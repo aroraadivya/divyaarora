@@ -56,14 +56,27 @@ const rows = [
     ],
   },
   {
+    label: 'Automation',
+    tags: [
+      { text: 'n8n' },
+      { text: 'Pabbly' },
+      { text: 'TeleCRM' },
+      { text: 'Zoho Flow' },
+      { text: 'Zoho CRM' },
+      { text: 'Zoho SalesIQ' },
+      { text: 'Zoho Desk' },
+      { text: 'Zoho Analytics' },
+      { text: 'Zoho People' },
+      { text: 'Deluge' },
+    ],
+  },
+  {
     label: 'Tools',
     tags: [
       { icon: 'devicon-git-plain', text: 'Git' },
       { icon: 'devicon-github-original', text: 'GitHub' },
       { icon: 'devicon-docker-plain', text: 'Docker' },
       { icon: 'devicon-postman-plain', text: 'Postman' },
-      { text: 'Zoho CRM' },
-      { text: 'Deluge' },
     ],
   },
   {
