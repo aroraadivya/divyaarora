@@ -36,7 +36,7 @@ export default function Hero() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.7, delay: 0.2, ease: 'easeOut' }}
         >
-          <img src="/profile.png" alt="Divya Arora" className="hero-photo" loading="lazy" />
+          <img src={`${import.meta.env.BASE_URL}profile.png`} alt="Divya Arora" className="hero-photo" loading="lazy" />
           <div className="float-badge float-1">🐍 Python</div>
           <div className="float-badge float-2">⚛️ React</div>
           <div className="float-badge float-3">🍎 Swift</div>
