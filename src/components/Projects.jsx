@@ -5,6 +5,18 @@ const stagger = { hidden: {}, show: { transition: { staggerChildren: 0.08 } } };
 
 const projects = [
   {
+    dot: 'linear-gradient(135deg, #f2d4c4, #e0a890)',
+    name: 'Sponix',
+    desc: 'Independently architected and operate a multi-app food-delivery platform (customer, restaurant, delivery, admin) on a shared backend. 4 apps live on Google Play and 2 on the App Store, with payment-first Razorpay checkout, live order tracking over WebSockets, and admin tooling for refunds and payouts.',
+    tags: ['Node.js', 'Express', 'Prisma', 'PostgreSQL', 'React Native', 'Expo', 'Razorpay', 'Railway'],
+  },
+  {
+    dot: 'linear-gradient(135deg, #d4c4f2, #a890e0)',
+    name: 'OpsIQ',
+    desc: 'Agentic incident-triage system built for the Microsoft Agents League Hackathon 2026. Diagnoses production issues from raw log dumps with an execution loop that reranks hypotheses and updates runbook steps in real time.',
+    tags: ['Python', 'AI Agents', 'LLM', 'Hackathon'],
+  },
+  {
     dot: 'linear-gradient(135deg, #f2c4c4, #e09090)',
     name: 'EmotionSense',
     desc: 'Real-time multimodal emotion analysis system fusing text, audio, and video signals into a single prediction with stress index, risk level, and CBT recommendations.',
@@ -40,25 +52,27 @@ export default function Projects() {
       <motion.p className="label" variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} transition={{ duration: 0.5 }}>Projects</motion.p>
       <motion.h2 className="heading" variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.05 }}>Things I've built</motion.h2>
       <motion.div className="projects-grid" variants={stagger} initial="hidden" whileInView="show" viewport={{ once: true }}>
-        {projects.map((p, i) => (
-          <motion.a
-            key={i}
-            href={p.href}
-            target="_blank"
-            rel="noreferrer"
-            className="project-card"
-            variants={fadeUp}
-            transition={{ duration: 0.4 }}
-          >
-            <div className="project-dot" style={{ background: p.dot }} />
-            <div className="project-name">{p.name}</div>
-            <div className="project-desc">{p.desc}</div>
-            <div className="project-tags">
-              {p.tags.map((t, j) => <span key={j} className="project-tag">{t}</span>)}
-            </div>
-            <span className="project-link">View →</span>
-          </motion.a>
-        ))}
+        {projects.map((p, i) => {
+          const Card = p.href ? motion.a : motion.div;
+          const linkProps = p.href ? { href: p.href, target: '_blank', rel: 'noreferrer' } : {};
+          return (
+            <Card
+              key={i}
+              {...linkProps}
+              className="project-card"
+              variants={fadeUp}
+              transition={{ duration: 0.4 }}
+            >
+              <div className="project-dot" style={{ background: p.dot }} />
+              <div className="project-name">{p.name}</div>
+              <div className="project-desc">{p.desc}</div>
+              <div className="project-tags">
+                {p.tags.map((t, j) => <span key={j} className="project-tag">{t}</span>)}
+              </div>
+              {p.href && <span className="project-link">View →</span>}
+            </Card>
+          );
+        })}
       </motion.div>
     </section>
   );

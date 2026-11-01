@@ -15,11 +15,11 @@ export default function Hero() {
         >
           <div className="hero-tags">
             <span className="hero-tag">She / Her &nbsp;·&nbsp; India</span>
-            <span className="hero-status">⚡ Currently at ReKnew · Building AI systems</span>
+            <span className="hero-status">⚡ Currently at ReKnew · Building agentic AI systems</span>
           </div>
           <h1 className="hero-name">Divya<br /><em>Arora</em></h1>
           <p className="hero-desc">
-            Junior Data Engineer building intelligent systems with AI. Also an author, iOS developer, and workflow automation enthusiast. Just curious about everything.
+            Data Engineer shipping GenAI and agentic systems end to end, from multi-agent RAG platforms to production apps live on the Play Store and App Store. Also an author and iOS developer. Just curious about everything.
           </p>
           <div className="hero-btns">
             <a href="mailto:divyaarorag0o1@gmail.com" className="btn btn-dark">Get in touch</a>
@@ -36,13 +36,13 @@ export default function Hero() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.7, delay: 0.2, ease: 'easeOut' }}
         >
-          <img src={`${import.meta.env.BASE_URL}profile.png`} alt="Divya Arora" className="hero-photo" loading="lazy" />
+          <img src={`${import.meta.env.BASE_URL}profile.jpg`} alt="Divya Arora" className="hero-photo" loading="lazy" />
           <div className="float-badge float-1">🐍 Python</div>
           <div className="float-badge float-2">⚛️ React</div>
           <div className="float-badge float-3">🍎 Swift</div>
-          <div className="float-badge float-4">🤖 AI / LLM</div>
+          <div className="float-badge float-4">🤖 AI Agents</div>
           <div className="float-badge float-5">✍️ Author</div>
-          <div className="float-badge float-6">⚡ n8n</div>
+          <div className="float-badge float-6">🔗 LangGraph</div>
         </motion.div>
       </div>
     </section>

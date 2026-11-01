@@ -4,11 +4,11 @@ const fadeUp = { hidden: { opacity: 0, y: 24 }, show: { opacity: 1, y: 0 } };
 const stagger = { hidden: {}, show: { transition: { staggerChildren: 0.08 } } };
 
 const cards = [
-  { icon: '🏗️', title: 'Data Engineering', sub: 'FastAPI · AI Agents · LLM Integration' },
-  { icon: '📱', title: 'iOS Development', sub: 'Swift · SwiftUI · MVVM Architecture' },
-  { icon: '⚙️', title: 'Workflow Automation', sub: 'n8n · Pabbly · TeleCRM · Zoho Flow · Zoho CRM · Deluge' },
-  { icon: '💻', title: 'Full Stack Development', sub: 'React · Node.js · FastAPI · SQL · REST APIs' },
-  { icon: '🧠', title: 'DSA & Problem Solving', sub: 'C++ · Data Structures · Algorithms · OOP' },
+  { icon: '🤖', title: 'GenAI & Agentic Systems', sub: 'LangChain · LangGraph · CrewAI · RAG · Vector DBs' },
+  { icon: '🏗️', title: 'Data Engineering', sub: 'Python · SQL · Spark · Databricks · Snowflake · FastAPI' },
+  { icon: '💻', title: 'Full Stack & Mobile', sub: 'React · React Native (Expo) · Node.js · Prisma · PostgreSQL' },
+  { icon: '☁️', title: 'Cloud & DevOps', sub: 'AWS · Docker · Kubernetes · Terraform · Railway · Vercel' },
+  { icon: '📱', title: 'iOS Development', sub: 'Swift · SwiftUI · UIKit · CoreData · MVVM' },
   { icon: '✍️', title: 'Author', sub: 'She Knew, Eventually · Oct 2025' },
 ];
 
@@ -20,9 +20,9 @@ export default function About() {
 
       <div className="about-top">
         <motion.div className="about-text" variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} transition={{ duration: 0.5 }}>
-          <p>I'm a data engineer with a curiosity that bleeds into everything, from building LLM-powered applications and automating business workflows, to developing iOS apps and writing books.</p>
-          <p>Currently at ReKnew in Hyderabad, I work at the intersection of data, AI, and product, building intelligent systems that actually solve real problems, not just demo well.</p>
-          <p>I've worn many hats: Scrum Master leading a team of 9 at Infosys, Zoho developer shipping client CRM solutions, open-source contributor, and most recently a published author.</p>
+          <p>I'm a data engineer with a curiosity that bleeds into everything, from building multi-agent AI systems and shipping production apps, to developing for iOS and writing books.</p>
+          <p>Currently at ReKnew in Hyderabad, I build GenAI systems for Fiserv: a multi-agent platform with RAG, semantic search, and LangGraph orchestration, plus KPI dashboards over bank data. On the side, I independently built and run Sponix, a food-delivery platform with four apps live in production. I care about taking prototypes to reliable production systems, not just demos.</p>
+          <p>I've worn many hats: Scrum Master leading a team of 9 at Infosys, Zoho developer automating client business processes, open-source contributor, and most recently a published author.</p>
         </motion.div>
         <motion.div className="about-right" variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.1 }}>
           <div className="about-stats">
@@ -35,11 +35,11 @@ export default function About() {
               <span className="stat-label">Published Book</span>
             </div>
             <div className="about-stat">
-              <span className="stat-num">4+</span>
-              <span className="stat-label">Years Coding</span>
+              <span className="stat-num">4</span>
+              <span className="stat-label">Live Apps</span>
             </div>
           </div>
-          <p className="about-edu">🎓 B.Tech Computer Science · iOS Specialization<br />Chitkara University · Class of 2022</p>
+          <p className="about-edu">🎓 B.E. Computer Science &amp; Engineering · CGPA 8.34<br />Chitkara University · 2022 - 2026</p>
         </motion.div>
       </div>
 
